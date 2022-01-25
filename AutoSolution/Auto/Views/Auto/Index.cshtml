@@ -1,0 +1,54 @@
+﻿@model IEnumerable<Models.DataViewModels.PackageDTO>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Insurance Packages</h2>
+
+@if (User.IsInRole("Admin"))
+{
+    <p>
+        @Html.ActionLink("Create New", "AddPack")
+    </p>
+}
+
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Pack_Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Price)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Pack_Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Price)
+            </td>
+            <td>
+                @Html.ActionLink("Details", "PackDetails", new { packName = item.Pack_Name }) |
+                @if (User.IsInRole("Admin"))
+                {
+                    @Html.ActionLink("Delete", "DeletePack", new { packName = item.Pack_Name })
+                }
+
+            </td>
+            @if (Request.IsAuthenticated)
+            {
+                <td>
+                    @Html.ActionLink("Buy", "BuyPack", new { packName = item.Pack_Name }) 
+                </td>
+            }
+        </tr >
+    }
+
+</table>

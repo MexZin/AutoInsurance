@@ -1,0 +1,17 @@
+C:\Users\MIKA\Desktop\AutoInsurance\AutoSolution\Repository\obj\Debug\Repository.csproj.AssemblyReference.cache
+C:\Users\MIKA\Desktop\AutoInsurance\AutoSolution\Repository\obj\Debug\Repository.csproj.CoreCompileInputs.cache
+C:\Users\MIKA\Desktop\AutoInsurance\AutoSolution\Repository\bin\Debug\Repository.dll.config
+C:\Users\MIKA\Desktop\AutoInsurance\AutoSolution\Repository\bin\Debug\Repository.dll
+C:\Users\MIKA\Desktop\AutoInsurance\AutoSolution\Repository\bin\Debug\Repository.pdb
+C:\Users\MIKA\Desktop\AutoInsurance\AutoSolution\Repository\bin\Debug\DAL.dll
+C:\Users\MIKA\Desktop\AutoInsurance\AutoSolution\Repository\bin\Debug\EntityFramework.dll
+C:\Users\MIKA\Desktop\AutoInsurance\AutoSolution\Repository\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\MIKA\Desktop\AutoInsurance\AutoSolution\Repository\bin\Debug\Models.dll
+C:\Users\MIKA\Desktop\AutoInsurance\AutoSolution\Repository\bin\Debug\DAL.pdb
+C:\Users\MIKA\Desktop\AutoInsurance\AutoSolution\Repository\bin\Debug\DAL.dll.config
+C:\Users\MIKA\Desktop\AutoInsurance\AutoSolution\Repository\bin\Debug\Models.pdb
+C:\Users\MIKA\Desktop\AutoInsurance\AutoSolution\Repository\bin\Debug\EntityFramework.xml
+C:\Users\MIKA\Desktop\AutoInsurance\AutoSolution\Repository\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\MIKA\Desktop\AutoInsurance\AutoSolution\Repository\obj\Debug\Repository.csproj.CopyComplete
+C:\Users\MIKA\Desktop\AutoInsurance\AutoSolution\Repository\obj\Debug\Repository.dll
+C:\Users\MIKA\Desktop\AutoInsurance\AutoSolution\Repository\obj\Debug\Repository.pdb
